@@ -1,0 +1,16 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu img {
+    width: 180px;
+    height: auto;
+}
+
+.menu a,
+.menu li {
+    text-decoration: none;
+    list-style: none;
+}

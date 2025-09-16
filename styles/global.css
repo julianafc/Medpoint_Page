@@ -4,23 +4,18 @@
     box-sizing: border-box;
 }
 
+:root {
+    --cinza: #4D5052;
+    --verde-agua: #03B2B2;
+    --verde: #07807C;
+    --azul-claro: #1B5AAA;
+    --azul-escuro: #0F4477;
+}
+
 .wrapper {
     display: flex;
     width: 100%;
     margin: 0 auto;
-    padding: 0 40px;
-}
-
-.main {
-    display: flex;
-    flex-flow: column;
-    width: 85%;
-    padding-top: 20px;
-}
-
-.menu {
-    width: 15%;
-    padding: 10px 10px 20px;
 }
 
 .header {
@@ -31,11 +26,6 @@
     padding: 20px 10px;
 }
 
-.atendimento,
-.contato {
-    padding: 50px 10px;
-}
-
 .footer {
     display: flex;
     justify-content: center;
@@ -43,5 +33,5 @@
     padding: 20px;
     width: 100%;
     min-height: 150px;
-    background-color: #4D5052;
+    background-color: var(--cinza);
 }

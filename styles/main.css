@@ -1,3 +1,10 @@
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    padding-top: 20px;
+}
+
 table,
 table tr,
 table th {
@@ -5,8 +12,7 @@ table th {
     padding: 2px;
 }
 
-header {}
-
-header img {
-    width: 100%;
+.atendimento,
+.contato {
+    padding: 50px 10px;
 }

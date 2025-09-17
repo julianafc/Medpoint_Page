@@ -8,11 +8,29 @@
 table,
 table tr,
 table th {
-    border: 1px solid black;
+    border: 1px solid var(--azul-escuro);
     padding: 2px;
+}
+
+table th {
+    padding: 5px;
 }
 
 .atendimento,
 .contato {
     padding: 50px 10px;
+}
+
+.contato-cards a {
+    display: flex;
+    text-decoration: none;
+    color: var(--azul-escuro);
+}
+
+.contato-cards a:hover {
+    color: var(--azul-claro);
+}
+
+.contato-cards a span {
+    padding: 5px;
 }

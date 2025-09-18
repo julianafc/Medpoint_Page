@@ -8,12 +8,17 @@
 table,
 table tr,
 table th {
-    border: 1px solid var(--azul-escuro);
+    border: 1px solid var(--azul-claro);
     padding: 2px;
+}
+
+table {
+    background-color: var(--azul-claro);
 }
 
 table th {
     padding: 5px;
+    background-color: white;
 }
 
 .atendimento,

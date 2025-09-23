@@ -14,11 +14,14 @@
 
 .menu a,
 .menu li {
+    display: inline-block;
     text-decoration: none;
     list-style: none;
     color: var(--cinza);
+    transition: transform 0.3s ease;
 }
 
 .menu a:hover {
     color: var(--azul-claro);
+    transform: scale(1.1);
 }

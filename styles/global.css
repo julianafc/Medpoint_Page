@@ -27,16 +27,6 @@
     padding: 20px 10px;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    width: 100%;
-    min-height: 150px;
-    background-color: var(--cinza);
-}
-
 h2 {
     color: var(--azul-claro);
     padding-bottom: 5px;

@@ -27,6 +27,8 @@ MedPoint é um site fictício de clínica médica, desenvolvido como parte do cu
 
 ## 🖼️ **Demonstração**
 
-Acesse o projeto através deste link: [MedPoint]().
+<img width="1360" height="1449" alt="FireShot Capture 031 - Medpoint -  127 0 0 1" src="https://github.com/user-attachments/assets/e3ec8418-13ea-47fb-bf18-458e3de30604" />
+
+Acesse o projeto através deste link: [MedPoint](https://julianafc.github.io/Medpoint_Page/).
 
 **💡 Este projeto é apenas para fins educativos e não tem conexão com a página original.**

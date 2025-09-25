@@ -1,6 +1,7 @@
 .main {
     display: flex;
     flex-flow: column;
+    gap: 40px;
     width: 85%;
     padding: 20px 20px 0 0;
 }
@@ -51,9 +52,8 @@ table th {
     background-color: white;
 }
 
-.atendimento,
 .contato {
-    padding: 50px 10px;
+    padding-bottom: 40px;
 }
 
 .contato-cards a {
@@ -68,4 +68,36 @@ table th {
 
 .contato-cards a span {
     padding: 5px;
+}
+
+@media (max-width:965px) {
+    .main {
+        padding: 0;
+    }
+
+    .header {
+        background-attachment: scroll;
+    }
+
+    .text-bold-lg,
+    .text-lg {
+        max-width: 370px;
+        font-size: 1.5rem;
+    }
+
+    .text-p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .atendimento {
+        overflow-x: auto;
+    }
+
+    .atendimento table {
+        min-width: 500px;
+        width: 100%;
+        display: block;
+    }
 }

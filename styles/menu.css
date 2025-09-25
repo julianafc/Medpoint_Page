@@ -45,6 +45,10 @@
 }
 
 @media (max-width: 550px) {
+    .menu img {
+        margin: 0 auto;
+    }
+
     .menu ul {
         display: none;
     }
